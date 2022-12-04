@@ -1,0 +1,74 @@
+/* @media('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css') */
+.netive-img {
+    height: 150px !important; 
+}
+.section-home {
+    background-image: url(../Images/home-background-img.png);
+    background-position: center;
+    height: 860px;
+    width: 100%;
+    background-size: 150%;
+    display: grid;
+    padding: 0px 5px;
+}
+.Infinity {
+    transform: translate(40px, 280px) rotate(0deg);
+}
+.slider_video {
+    transform: translate(90px, 0px) rotate(0deg);
+    height: 100px;
+    width: 100px;
+}
+.slider_img {
+    height: 350px;
+    width: 350px; 
+    padding: 18px;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translate(740px, -70px) rotate(0deg);
+}
+.round_border { 
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(700px, 160px) rotate(0deg);
+}
+.about_img {
+    width: 450px;
+    height: 400px;
+}
+.service_card_radius {
+    border-radius: 50px;
+}
+.section_work_img {
+    width: 300px !important;
+    height: 300px !important;
+}
+.full_row_hiring {
+    /* margin-top: 50px; */
+    background-image: url(../Images/hiring-section-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+
+}
+.bullet_line_right {
+    background-image: url(../Images/section-future-bg-img.png);
+    background-repeat: no-repeat;
+    background-size:100px;
+    background-position: center;
+}
+.section-news-box {
+    position: absolute;
+    content: "";
+    width: 105%;
+    left: -8px;
+    bottom: -55px;
+    background-color: #fff;
+    height: 80px;
+    transform: rotate(-4deg);
+}
+/* .section-contact {
+    display: inline;
+} */
