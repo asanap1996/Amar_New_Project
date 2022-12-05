@@ -1,0 +1,74 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+
+    .section_work_img {width: 150px ;
+        height: 150px ;}
+    .about_img {width: 200px ;
+        height: 200px ;}
+    .section-map {width: 100%;}
+    .netive-img {height: 40px;}
+    .section-home {height: 250px;}
+    .Infinity {margin-top: 0%;}
+    .text-hello {font-size: 17px;}
+    .text-design {font-size: 12px;}
+    .section_home_para {font-size: 9px;}
+    .slider_img {top: 8%;
+        /* right: -15px; */
+        height: 120px;
+        width: 120px}
+    .round_border{top: 25%;
+            right: 5%;}
+    .hiring_section_head {font-size: 13px;}
+    .section_news_img {width: 0;}
+
+    }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 425px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1024px) { 
+        .about_img {width: 400px;
+                   height: 400px;}
+        .netive-img {height: 140px;}
+        .section-home {height: 860px;}
+        .Infinity {margin-top: 30%;}
+        .text-hello {font-size: 30px;}
+        .text-design {font-size: 25px;}
+        .section_home_para {font-size: 15px;}
+        .slider_img {top: 60%;
+            /* right: -17px; */
+            height: 350px;
+            width: 350px; }
+        .round_border{top: 117%;
+            right: 7%;
+        }
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1440px ) { 
+        .about_img {width: 400px ;
+               height: 400px ;}
+        .netive-img {height: 140px;}
+        .section-home {height: 860px;}
+        .Infinity {margin-top: 40%;}
+        .text-hello {font-size: 30px;}
+        .text-design {font-size: 25px;}
+        .section_home_para {font-size: 15px;}
+        .slider_img {top: 60%;
+            /* right: -17px; */
+            height: 350px;
+            width: 350px; }
+        .round_border{top: 117%;
+            right: 7%;
+        }
+}
